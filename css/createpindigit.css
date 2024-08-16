@@ -1,0 +1,115 @@
+* {
+    inset: 0;
+}
+
+.navbar-login {
+    width: auto;
+    height: auto;
+}
+
+.logo-login {
+    display: flex;
+    width: 471px;
+    height: auto;
+}
+
+.login-right {
+    display: flex;
+    float: right;
+    padding: 0 2rem;
+    margin: -6rem 3rem;
+}
+
+#language {
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+}
+
+.singin-right {
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+}
+
+.register-right {
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+}
+
+/* .create-pin-digit {
+    width: 100%;
+    height: 45rem;
+    background-color: rgb(255, 255, 255);
+} */
+
+.create-pin-digit h1 {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+.create-pin-digit h4 {
+    color: #000;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+.pin-code-filed {
+    justify-content: center;
+    display: flex;
+}
+
+.pin-code-filed input {
+    max-width: 4rem;
+    font-size: 2rem;
+    padding: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+    margin: 2px;
+    transition: all 0.2s;
+}
+
+.pin-code-filed input:focus {
+    color: red;
+}
+.button-submit-pin {
+    justify-content: center;
+    margin: 5rem;
+}
+
+.button-submit-pin button {
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.625rem;
+    background: #B20C01;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    letter-spacing: 0.0375rem;
+    text-align: center;
+    margin-right: 10rem;
+}
+.button-submit-pin button:active{
+    background-color: #000;
+}

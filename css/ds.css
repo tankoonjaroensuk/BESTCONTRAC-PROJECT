@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Blinker', sans-serif;
+}
+
+.containner {
+    width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navbar-login {
+    width: 1920px;
+    height: auto;
+}
+
+.logo-login {
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin-right: -2rem;
+}
+
+.logo-login img {
+    width: 400px;
+    height: auto;
+
+}
+
+.login-right {
+    display: flex;
+    float: right;
+    padding: 0 2rem;
+    margin: -5rem 5rem;
+}
+
+#language {
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+}
+
+.home-right {
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    color: #667080;
+    font-weight: 600;
+    background-color: #FFF;
+}
+
+.register-right {
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    color: #667080;
+    background-color: #FFF;
+
+}
+
+.services-right {
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    color: #667080;
+    font-weight: 600;
+    background-color: #FFF;
+    text-decoration: underline;
+}
+
+.dropdown-index-logout {
+    position: relative;
+    display: inline-block;
+}
+
+.index-logout {
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    border: white;
+    width: 8rem;
+    height: 3.3375rem;
+    background: #B20C01;
+    color: #FFF;
+    font-size: 0.8875rem;
+    font-weight: bold;
+    letter-spacing: 0.10688rem;
+    border-radius: 3.25rem;
+    color: #FFF;
+    margin-top: -2rem;
+
+}
+
+.dropdown-logout {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-logout a {
+    color: black;
+    padding: 12px 22px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-logout a:hover {
+    background-color: #cccccc;
+
+}
+
+.dropdown-index-logout:hover .dropdown-logout {
+    display: block;
+}
+
+.dropdown-index-logout:hover .index-logout {
+    background-color: #08003B;
+}
+.search-contractor{
+    width: 1920px;
+    height: 1000px;
+}
+.intro-search-contrac h1{
+    font-size: 100px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color: #09244B;
+    margin-left: 23rem;
+    margin-top: 2rem;
+}
+.best-services{
+    width: 1920px;
+    height: auto;
+    
+} 
+
+.choice-sets {
+    width: 1730px;
+    height: 1067px;
+    border-radius: 10px;
+    background: rgba(217, 217, 217, 0.00);
+    margin: 7rem 5rem;
+    
+}
+
+.card-best-products {
+    width: 1730px;
+    height: auto;
+}
+
+.card-best-products h1 {
+    text-align: center;
+    font-size: 96px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+    color: #09244B;
+    margin-top: 4rem;
+}
+
+.card-best-products .card-best-products-grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto auto auto;
+}
+
+ .cardboxproducts {
+    width: 463px;
+    height: 548px;
+    background-color: #F5F5F5;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 1px 23px 3px, rgba(0, 0, 0, 0.2) 0px 3px 0px inset;
+    border-radius: 20px;
+    margin: 6rem 0 0 7rem;
+    
+}
+.cardboxproducts a{
+    text-decoration: none;
+}
+.img-products {
+    width: 100%;
+    height: 384px;
+}
+.img-products img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+
+.text-products {
+    padding: 1rem 1rem;
+}
+
+.text-products h3 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.text-products h4 {
+    font-family: 'Prompt', sans-serif;
+    color: #616161;
+    font-weight: 400;
+}
+
+.text-products h5 {
+    font-family: 'Prompt', sans-serif;
+    color: #2c2c2c;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.text-products p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+}
+.border-ras {
+    width: 104.94px;
+    height: 33.54px;
+    background-color: #080000;
+    border-radius: 20px;
+    position: relative;
+    bottom: 8rem;
+    left: 20.5rem;
+
+}
+.border-ras p {
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 13px;
+}  
+
+
+/* select, button {
+    width: 10%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+button {
+    background-color: #ff3232;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 900px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.container-search{
+    width: 1980px;
+    margin-top: 100px;
+}
+
+.container-search h1{
+    text-align: center;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400 ;
+    font-size: 60px;
+    color: navy ;
+    
+    
+   
+}
+.form-container{
+    width: 50%;
+    height: 300px;
+   
+   
+    
+}
+
+#dropdown1 {
+    width: 320px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+
+#dropdown2{
+    width: 320px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#dropdown3{
+    width: 320px;
+    height: 80px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+.place01{
+}
+
+.place01 select{
+    border-radius: 10px;
+    display: flex;
+    margin-left: 650px;
+}
+
+
+.place02 select{
+    border-radius: 10px;
+    display: flex;
+    margin-left: 20px;
+}
+.all{
+    display: flex;
+}
+
+.first{
+    width: 50%;
+    
+}
+
+.second{
+    width: 50%;
+} */

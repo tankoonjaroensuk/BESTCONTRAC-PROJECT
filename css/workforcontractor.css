@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Blinker', sans-serif;
+}
+
+.containner {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navbar-login {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-login {
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin-right: -2rem;
+}
+
+.logo-login img {
+    width: 400px;
+    height: auto;
+
+}
+
+.list {
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+#language {
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+}
+
+.item-list {
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    color: #667080;
+    font-weight: 600;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.dropdown-index-logout {
+    position: relative;
+    display: inline-block;
+}
+
+.index-logout {
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    border: white;
+    width: 8rem;
+    height: 3.3375rem;
+    background: #B20C01;
+    color: #FFF;
+    font-size: 0.8875rem;
+    font-weight: bold;
+    letter-spacing: 0.10688rem;
+    border-radius: 3.25rem;
+    color: #FFF;
+    margin-top: -2rem;
+
+}
+
+.dropdown-logout {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-logout a {
+    color: black;
+    padding: 12px 22px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-logout a:hover {
+    background-color: #cccccc;
+
+}
+
+.dropdown-index-logout:hover .dropdown-logout {
+    display: block;
+}
+
+.dropdown-index-logout:hover .index-logout {
+    background-color: #08003B;
+}
+
+.scroll-bar-work {
+    width: 1600px;
+    padding: 2rem 0 2rem 8rem;
+    display: flex;
+    border-bottom: 2px solid #09244B;
+    margin-left: 10rem;
+}
+
+.choice-scroll-work {
+    display: flex;
+    margin-left: 10rem;
+}
+
+.choice-scroll-work a {
+    padding-right: 10rem;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Prompt', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 3rem;
+}
+.contact-order-work {
+    width: 1920px;
+    height: auto;
+}
+.order-work-contractor{
+    margin-bottom: 4rem;
+}
+.info-contact-work h1 {
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Prompt', sans-serif;
+    color: #09244B;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+.id-order-work{
+    width: 1416px;
+    height: 233px;
+    margin: 0 15rem;
+    margin-bottom: 2rem;
+}
+.id-order-work h2{
+    font-size: 80px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+    color: #09244B;
+    padding-top: 2rem;
+}
+.id-order-work p{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+    color: #09244B;
+}
+.detail-order-contractor{
+    width: 1416px;
+    height: 633px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 0 15rem;
+}
+.text-detail-contractor {
+    margin: 5rem 8rem;
+    
+}
+.text-detail-contractor p{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+    padding-bottom: 2rem;
+}
+.text-detail-contractor span{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+    color: #09244B;
+}
+.button-accept{
+    position: relative;
+    bottom: 53.2rem;
+    left: 76rem;
+    width: 200px;
+    height: 60px;
+}
+.button-accept button{
+    width: 200px;
+    height: 60px;
+    background-color: #00BE2A;
+    border: none;
+    border-radius: 3.25rem;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.button-accept button:active {
+    width: 200px;
+    height: 60px;
+    background-color: #525252;
+    border: none;
+    border-radius: 3.25rem;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.button-cancel{
+    position: relative;
+    bottom: 56.97rem;
+    left: 90rem;
+    width: 200px;
+    height: 60px;
+}
+.button-cancel button{
+    width: 200px;
+    height: 60px;
+    background-color: #B20C01;
+    border: none;
+    border-radius: 3.25rem;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.button-cancel button:active {
+    width: 200px;
+    height: 60px;
+    background-color: #525252;
+    border: none;
+    border-radius: 3.25rem;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.contact-calendar-work {
+    width: 1920px;
+    height: 508px;
+}
+.contact-calendar-contractor{
+    margin-bottom: 4rem;
+}
+.info-calendar-work h1{
+    font-size: 100px;
+    font-weight: 500;
+    font-family: 'Prompt', sans-serif;
+    color: #09244B;
+    text-align: center;
+    padding: 2rem 0;
+
+}

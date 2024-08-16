@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Blinker', sans-serif;
+}
+
+.containner {
+    width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navbar-login {
+    width: 1920px;
+    height: auto;
+}
+
+.logo-login {
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin-right: -2rem;
+}
+
+.logo-login img {
+    width: 400px;
+    height: auto;
+
+}
+
+.login-right {
+    display: flex;
+    float: right;
+    padding: 0 2rem;
+    margin: -5rem 5rem;
+}
+
+#language {
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+}
+
+.home-right {
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #667080;
+    font-weight: 600;
+    background-color: #FFF;
+}
+
+.register-right {
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    color: #667080;
+    background-color: #FFF;
+
+}
+
+.services-right {
+    border: none;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    color: #667080;
+    font-weight: 600;
+    background-color: #FFF;
+
+}
+
+.dropdown-index-logout {
+    position: relative;
+    display: inline-block;
+}
+
+.index-logout {
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    border: white;
+    width: 8rem;
+    height: 3.3375rem;
+    background: #B20C01;
+    color: #FFF;
+    font-size: 0.8875rem;
+    font-weight: bold;
+    letter-spacing: 0.10688rem;
+    border-radius: 3.25rem;
+    color: #FFF;
+    margin-top: -2rem;
+
+}
+
+.dropdown-logout {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-logout a {
+    color: black;
+    padding: 12px 22px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-logout a:hover {
+    background-color: #cccccc;
+
+}
+
+.dropdown-index-logout:hover .dropdown-logout {
+    display: block;
+}
+
+.dropdown-index-logout:hover .index-logout {
+    background-color: #08003B;
+}
+.personal_update{
+    width: 1920px;
+    height: 839px;
+    display: flex;
+}
+.basic_upate {
+    width: 50%;
+    height: 839px;
+}
+.box-update1{
+    padding-left: 7rem;
+}
+.box-update1 h1{
+    font-family: 'Prompt', sans-serif;
+    padding-top: 3rem;
+    font-size: 80px;
+    font-weight: 600;
+    color: #09244B;
+    padding-bottom: 2rem;
+}
+.box-update1 input{
+    margin: 0.8rem 2rem;
+    padding: 0 2rem;
+}
+.data-information{
+    border-radius: 0.625rem;
+    background: #EAF0F7;
+    border: white;
+    width: 44.5rem;
+    height: 3.75rem;
+    display: block;
+}
+.submit-login {
+    border: white;
+    width: 25rem;
+    height: 3.75rem;
+    border-radius: 0.625rem;
+    background: #B20C01;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 1.1875rem;
+    font-weight: bold;
+    line-height: 2.8125rem; /* 405.263% */
+    letter-spacing: 0.10688rem;
+    margin: 2rem 19rem;
+    font-family: 'Prompt', sans-serif;
+}
+.verify-otp {
+    width: 50%;
+    display: flex;
+    height: 839px;
+
+}
+.phone-verify{
+    padding-top: 12.51rem ;
+}
+.phone-verify input{
+    margin: 0.8rem 2rem;
+    padding: 0 2rem;
+}
+.submit-otp{
+    border: white;
+    width: 25rem;
+    height: 3.75rem;
+    border-radius: 0.625rem;
+    background: #B20C01;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 1.1875rem;
+    font-weight: bold;
+    line-height: 2.8125rem; /* 405.263% */
+    letter-spacing: 0.10688rem;
+    margin: 2rem 12.5rem;
+    font-family: 'Prompt', sans-serif;
+}
+.email-verify{
+    padding-top: 0.3rem ;
+}
+.email-verify input{
+    margin: 0.8rem 2rem;
+    padding: 0 2rem;
+}
+

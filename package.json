@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "composer": "^4.1.0",
+    "flowbite": "^2.3.0"
+  }
+}

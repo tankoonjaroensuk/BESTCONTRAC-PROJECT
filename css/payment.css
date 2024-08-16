@@ -1,0 +1,136 @@
+/* .container{
+    width: 1980px;
+    height: 1000px;
+}
+h1{
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500 ;
+    text-align: center;
+    margin-right: 25px;
+    color: rgb(1, 1,     82);
+}
+h2{
+    font-size: 40px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500 ;
+    text-align: center;
+    color: rgb(3, 3, 86);
+    margin-top: -40px;
+    margin-right: 25px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500 ;
+    margin-right: 30px;
+    margin-top: -10px;
+    margin-left: 800px;
+}
+P{
+    text-align: center;
+    font-size: 25px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 500 ;
+    margin-right: 30px;
+    margin-top: -10px;
+    margin-left: 100px;
+}
+.total{
+    display: flex;
+}
+.way{
+    margin-top: -30px;
+    width: 20%;
+    display: flex;
+    margin-left: 620px;
+    font-family: "Prompt", sans-serif;
+}
+.qr{
+    width: 50%;
+    padding: 45px;
+    font-family: "Prompt", sans-serif;
+}
+.mo{
+    width: 50%;
+    padding: 45px;
+    font-family: "Prompt", sans-serif;
+}
+.cd{
+    width: 50%;
+    padding: 45px;
+    font-family: "Prompt", sans-serif;
+}
+.qr button{
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: darkblue;
+    
+}
+.qr button:focus {
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: aliceblue;
+    
+}
+
+.mo button{
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: darkblue;
+   
+}
+.mo button:focus{
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: aliceblue;
+    
+}
+.cd button{
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: darkblue;
+   
+}
+.cd button:focus{
+    width: 150px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: aliceblue;
+    
+}
+.box{
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    margin-left: 375px;
+}
+
+.payment-info p {
+    font-size: 30px;
+    color: rgb(190, 0, 0);
+    margin-left : 10px;
+} */
+.omise-checkout-button{
+    width: 100%;
+    height: 100%;
+}

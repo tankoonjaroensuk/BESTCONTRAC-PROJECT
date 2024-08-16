@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Blinker', sans-serif;
+}
+.containner {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navbar-login {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-login {
+    display: flex;
+    width: 400px;
+    height: auto;
+    margin-right: -2rem;
+}
+
+.logo-login img {
+    width: 400px;
+    height: auto;
+
+}
+
+.list {
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+#language {
+    border: none;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+}
+
+.item-list{
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    color: #667080;
+    font-weight: 600;
+    background-color: #FFF;
+    text-decoration: none;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+.dropdown-index-logout {
+    position: relative;
+    display: inline-block;
+}
+
+.index-logout {
+    font-size: 20px;
+    letter-spacing: 1.02px;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    border: white;
+    width: 8rem;
+    height: 3.3375rem;
+    background: #B20C01;
+    color: #FFF;
+    font-size: 0.8875rem;
+    font-weight: bold;
+    letter-spacing: 0.10688rem;
+    border-radius: 3.25rem;
+    color: #FFF;
+    margin-top: -2rem;
+
+}
+
+.dropdown-logout {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-logout a {
+    color: black;
+    padding: 12px 22px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-logout a:hover {
+    background-color: #cccccc;
+
+}
+
+.dropdown-index-logout:hover .dropdown-logout {
+    display: block;
+}
+
+.dropdown-index-logout:hover .index-logout {
+    background-color: #08003B;
+}
+.first-booking{
+    width: 1920px;
+    height: 1000px;
+}
+.contrac_name h1{
+    margin: 5rem 8rem 0 8rem;
+    font-size: 100px;
+    font-weight: 400;
+    color: #09244B;
+
+}
+.contrac_name h2{
+    margin: 4rem 8rem;
+    font-size: 60px;
+    font-weight: 300;
+    color: #09244B;
+    line-height: 2px;
+    font-family: 'Prompt', sans-serif;
+    
+
+}
+.contrac_name p {
+    margin: 10rem 8rem 0 8rem;
+    font-size: 48px;
+    font-weight: 300;
+    color: #09244B;
+    line-height: 2px;
+    font-family: 'Prompt', sans-serif;
+}
+.contrac_name input{
+    margin: 5rem 8rem 0 8rem;
+    width: 1513px;
+    height: 85px;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Prompt', sans-serif;
+
+    outline: none;
+    background: #F9F9F9;
+    box-shadow: 5px 5px 17px #c8c8c8,
+               -5px -5px 17px #ffffff;
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+    color: #09244B;
+
+}
+.date-service{
+    height: 152px;
+}
+.date-service span{
+    margin: 10rem 0 0 8rem;
+    font-size: 40px;
+    font-weight: 300;
+    color: #09244B;
+    line-height: 2px;
+    font-family: 'Prompt', sans-serif;
+}
+.date-service input{
+    width: 337px;
+    height: 85px;
+    margin: 5rem;
+    color: #09244B;
+
+}
+
+.place-size span{
+    margin: 10rem 0 0 8rem;
+    font-size: 40px;
+    font-weight: 300;
+    color: #09244B;
+    line-height: 2px;
+    font-family: 'Prompt', sans-serif;
+}
+.place-size input{
+    width: 337px;
+    height: 85px;
+    margin: 5rem 10rem;
+    color: #09244B;
+}
+.place-size ::placeholder{
+    color: #09244B;
+}
+.time-service{
+    position: relative;
+    bottom: 24rem;
+    left: 61rem;
+    width: 950px;
+}
+.time-service span{
+    font-size: 40px;
+    font-weight: 300;
+    color: #09244B;
+    line-height: 2px;
+    font-family: 'Prompt', sans-serif;
+}
+.time-service input{
+    width: 267px;
+    height: 85px;
+    margin: 4rem;
+    color: #09244B;
+}
+.contrac-choice{
+    position: relative;
+    bottom: 23.4rem;
+    left: 61rem;
+    width: 950px;
+}
+.contrac-choice span{
+    font-size: 40px;
+    font-weight: 300;
+    color: #09244B;
+    line-height: 2px;
+    font-family: 'Prompt', sans-serif;
+}
+.contrac-choice select{
+    width: 237px;
+    height: 85px;
+    margin: 0 9rem;
+    color: #09244B;
+    font-size: 36px;
+    padding: 0.5rem;
+    font-family: 'Prompt', sans-serif;
+    border-radius: 10px;
+    outline: none;
+    background: #F9F9F9;
+    box-shadow: 5px 5px 17px #c8c8c8,
+               -5px -5px 17px #ffffff;
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+    color: #09244B;
+
+}
+.contrac-choice option{
+    color: #09244B;
+    font-size: 36px;
+    font-family: 'Prompt', sans-serif;
+
+}
+.button-submit {
+    width: 200px;
+    position: relative;
+    bottom: 15rem;
+    left: 53rem;
+}
+.submit-booking {
+    border: white;
+    width: 13rem;
+    height: 3.75rem;
+    border-radius: 25px;
+    background: #B20C01;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 1.1875rem;
+    font-weight: bold;
+    line-height: 2.8125rem; /* 405.263% */
+    letter-spacing: 0.10688rem;
+}
+.intro-bookingsus{
+    width: 1920px;
+    height: auto;
+}
+.intro-contractor-booking h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: #09244B;
+    padding-top: 5rem ;
+    text-align: center;
+}
+.contractor-booking-detail h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: #09244B;
+    padding-top: 2rem ;
+    padding-left: 8rem;
+}
+.submit-talk {
+    border: white;
+    width: 13rem;
+    height: 3.75rem;
+    border-radius: 25px;
+    background: #09244B;
+    color: #FFF;
+    font-size: 1.1875rem;
+    line-height: 2.8125rem; 
+    letter-spacing: 0.10688rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    position: relative;
+    bottom: 7rem;
+    left: 70rem;
+}
+.submit-talk:hover{
+    background: #B20C01;
+}
+.detail-booking-user{
+    width: 1416px;
+    height: 800px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 5rem 15rem;
+}
+.text-detail-bookinguser {
+    margin: 0 8rem;
+    
+}
+.text-detail-bookinguser p{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+    padding-bottom: 2rem;
+}
+.text-detail-bookinguser span{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+    color: #09244B;
+}
+.submit-next {
+    border: white;
+    width: 13rem;
+    height: 3.75rem;
+    border-radius: 25px;
+    background: #09244B;
+    color: #FFF;
+    font-size: 1.1875rem;
+    line-height: 2.8125rem; 
+    letter-spacing: 0.10688rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    margin-left: 46rem;
+    margin-bottom: 5rem;
+}
+.submit-next:hover{
+    background: #B20C01;
+}
+.submit-next2 {
+    border: white;
+    width: 13rem;
+    height: 3.75rem;
+    border-radius: 25px;
+    background: #09244B;
+    color: #FFF;
+    font-size: 1.1875rem;
+    line-height: 2.8125rem; 
+    letter-spacing: 0.10688rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+    text-transform: none;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+}
+.submit-next2:hover{
+    background: #B20C01;
+}
